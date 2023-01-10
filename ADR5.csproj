@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>True</UseWPF>
+    <ApplicationIcon>12313.ico</ApplicationIcon>
+    <PackageIcon>屏幕截图 2023-01-02 115120.png</PackageIcon>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Copyright>Copyright@Harekaze晴风</Copyright>
+	  <PublishAot>true</PublishAot>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <None Remove="00014-2911463248-2D,eve,%28%28girl%29%29,masterpiece,highres,extremely detailed,best quality,clouds,blue sky,whiethair,1girl,%28%28%28sunlight%29%29%29,blur, %28%28%28city.png" />
+    <None Remove="1.png" />
+    <None Remove="12313.png" />
+    <None Remove="223.png" />
+    <None Remove="background.png" />
+    <None Remove="buttonback.png" />
+    <None Remove="dis.png" />
+    <None Remove="Fixedsys.ttf" />
+    <None Remove="GIT-on-Windows.jpg" />
+    <None Remove="githublogo.png" />
+    <None Remove="git_logo.png" />
+    <None Remove="Nocolor.png" />
+    <None Remove="openai.png" />
+    <None Remove="pic.png" />
+    <None Remove="pii.png" />
+    <None Remove="pylogo.png" />
+    <None Remove="pythonlogo.png" />
+    <None Remove="qqpd.png" />
+    <None Remove="qqpdcd.jpg" />
+    <None Remove="R-C.png" />
+    <None Remove="屏幕截图 2023-01-03 071715.png" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>f935dc20-1cf0-11d0-adb9-00c04fd58a0b</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Content Include="12313.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="12313.png" />
+    <Resource Include="Fixedsys.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="00014-2911463248-2D,eve,((girl)),masterpiece,highres,extremely detailed,best quality,clouds,blue sky,whiethair,1girl,(((sunlight))),blur, (((city.png" />
+    <Resource Include="1.png" />
+    <Resource Include="223.png" />
+    <Resource Include="background.png" />
+    <Resource Include="buttonback.png" />
+    <Resource Include="dis.png" />
+    <Resource Include="GIT-on-Windows.jpg" />
+    <Resource Include="githublogo.png" />
+    <Resource Include="git_logo.png" />
+    <Resource Include="Nocolor.png" />
+    <Resource Include="openai.png" />
+    <Resource Include="pic.png" />
+    <Resource Include="pii.png" />
+    <Resource Include="pylogo.png" />
+    <Resource Include="pythonlogo.png" />
+    <Resource Include="qqpd.png" />
+    <Resource Include="qqpdcd.jpg" />
+    <Resource Include="R-C.png" />
+    <Resource Include="屏幕截图 2023-01-03 071715.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="front\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\枫雾九天\Downloads\屏幕截图 2023-01-02 115120.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
